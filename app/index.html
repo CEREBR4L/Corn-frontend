@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title>Corn</title>
+	<!-- build:css css/styles.min.css-->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<!-- endbuild -->
+</head>
+<body ng-controller="home" class="controller">
+
+
+	<div class="nav" id="top">
+
+		<h2 class="h3 nav-text">Corn</h2>
+
+		<ul class="nav-list">
+
+		  <a href="#" class="link">
+		    <li class="nav-list-item">Home</li>
+		  </a>
+
+		</ul>
+
+	</div>
+
+	<div ng-view class="view"></div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+
+	<!-- build:js js/main.min.js -->
+	
+	<script src="js/app.js"></script>
+	<script src="js/controllers/home.js"></script>
+
+	<!-- endbuild -->
+
+</body>
+</html>
