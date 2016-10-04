@@ -1,6 +1,6 @@
 {
   "name": "corn-frontend",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Angular Skeleton with sass, babel and minifying using gulp",
   "main": "index.js",
   "scripts": {
